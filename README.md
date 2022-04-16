@@ -1,4 +1,4 @@
-# Swarm Robotics Software Team Selections
+# Swarm Robotics Software
 ## Pre-requisites
 * Please install Ubuntu 18.04 or above on your laptop/WSL (Cannot verify the sanity of the codes for Windows machine)
 * If you are on Windows 10 and you have Ubuntu 18.04 neither as Dual-Boot nor in WSL (Windows Subsystem for Linux), then you may install WSL from this [link](https://docs.microsoft.com/en-us/windows/wsl/install-win10)  
@@ -122,4 +122,3 @@ Zoozoo and his friend have now been landed into a harsher territory. It's only t
 
 ### Level 6
 Now a swarm of zooids has joined in to help Zoozoo and his friend. This is the beginning of swarm intelligence. Now, do you feel like a God who programmed his creations to intelligence?
-# SwarmSoftwareTask
