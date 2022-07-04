@@ -20,20 +20,20 @@ This needs to be run either in a Ubuntu (>18.04) system or in WSL (Ubuntu 18.04)
 Clone this repository: (The first command takes you to the user's home directory and the last one takes you inside the task directory)
 	
 	unix_user@DESKTOP:~$ cd
-	unix_user@DESKTOP:~$ git clone https://github.com/sidvisw/SwarmSoftwareTask2021
-	unix_user@DESKTOP:~$ cd SwarmSoftwareTask2021
+	unix_user@DESKTOP:~$ git clone https://github.com/sidvisw/SwarmSoftwareTask
+	unix_user@DESKTOP:~$ cd SwarmSoftwareTask
 
 GRANTING PERMISSIONS:
 Change the execution permissions of  setup.sh and run.sh by using the following commands:
 
-	unix_user@DESKTOP:~/SwarmSoftwareTask2021$ chmod +x setup.sh
-	unix_user@DESKTOP:~/SwarmSoftwareTask2021$ chmod +x run.sh
+	unix_user@DESKTOP:~/SwarmSoftwareTask$ chmod +x setup.sh
+	unix_user@DESKTOP:~/SwarmSoftwareTask$ chmod +x run.sh
 
 **FIRST RUN:**
 
 In one terminal, enter the following:
 
-	unix_user@DESKTOP:~/SwarmSoftwareTask2021$ ./setup.sh
+	unix_user@DESKTOP:~/SwarmSoftwareTask$ ./setup.sh
 
 Once all dependencies are installed it would start the map server. You should see this:
 	
@@ -42,7 +42,7 @@ Once all dependencies are installed it would start the map server. You should se
 
 **In another terminal**, run this command and select the level to attempt: 
 
-	unix_user@DESKTOP:~/SwarmSoftwareTask2021$ python3 controller.py
+	unix_user@DESKTOP:~/SwarmSoftwareTask$ python3 controller.py
   
 The program would prompt you to enter a level. Start with 1 and work your way upto level 6. The `controller.py` sets up the level, creates bots in the map and, uses the solution written in `code.py` to drive the bots. 
 
@@ -53,7 +53,7 @@ The program would prompt you to enter a level. Start with 1 and work your way up
 	
 If you are on WSL, you would need to open Windows Explorer from inside the repository directory. Run the following command to view the files in Explorer. (Mind the dot).
 
-	unix_user@DESKTOP:~/SwarmSoftwareTask2021$  Explorer.exe . 
+	unix_user@DESKTOP:~/SwarmSoftwareTask$  Explorer.exe . 
 
 Locate the `showMap.html` file and open it in the browser. The map shown in the webpage refreshes every 1 second. The following command: `python3 simulation.py` also displays the map, but does not work in WSL without GUI support. (Also, try opening `http://localhost:5000/map` if you are curious.)
 
@@ -62,7 +62,7 @@ Locate the `showMap.html` file and open it in the browser. The map shown in the 
 
 Instead of running `setup.sh`, which may take some extra time confirming the dependencies, you may directly use:
 
-	unix_user@DESKTOP:~/SwarmSoftwareTask2021$ ./run.sh
+	unix_user@DESKTOP:~/SwarmSoftwareTask$ ./run.sh
 	
 You need not stop/restart the `run.sh` process everytime, but only when the process had been stopped (Ctrl+C)
 
