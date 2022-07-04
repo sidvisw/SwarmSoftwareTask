@@ -13,12 +13,6 @@
 * [Obstacle Avoidance and Path Retracing](https://2019.robotix.in/tutorial/pathplanning/obstacleavoidance/)
 * [RRT Path Planning](https://2019.robotix.in/tutorial/pathplanning/rrtplanner/)
 
-## Submission Guidelines
-
-You need to submit only `code.py` file over the Teams by deadline notified for the task.
-
-There will be meetings held for doubts and help, on a per need basis.
-
 ## How to Run
 
 This needs to be run either in a Ubuntu (>18.04) system or in WSL (Ubuntu 18.04) inside Windows.
@@ -74,8 +68,6 @@ You need not stop/restart the `run.sh` process everytime, but only when the proc
 
 
  ## Setup done, what next?
-
-Your task is to complete up as many functions/levels as possible in `code.py` and submit your codes through the teams assignment. You need not attempt all the levels, but sure, the more the better your chances are to get into the team. Your functions may not be optimal (in some cases, optimality cannot even be guaranteed!). We would solely judge on how you approach the problem and how much effort you've put in! :)
 
 This problem statement comes with a sample (pretty unintelligent!) submission for level 1 problem (just makes the bot move in random steps). We shall be providing sample (again, unintelligent ones!) for higher levels too.
 
