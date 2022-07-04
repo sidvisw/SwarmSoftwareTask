@@ -20,7 +20,7 @@ This needs to be run either in a Ubuntu (>18.04) system or in WSL (Ubuntu 18.04)
 Clone this repository: (The first command takes you to the user's home directory and the last one takes you inside the task directory)
 	
 	unix_user@DESKTOP:~$ cd
-	unix_user@DESKTOP:~$ git clone https://github.com/shreyase99/SwarmSoftwareTask2021
+	unix_user@DESKTOP:~$ git clone https://github.com/sidvisw/SwarmSoftwareTask2021
 	unix_user@DESKTOP:~$ cd SwarmSoftwareTask2021
 
 GRANTING PERMISSIONS:
